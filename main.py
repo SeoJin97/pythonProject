@@ -43,7 +43,7 @@ def hanguel_func(target) :
             result_3.append(result_2[i])
     print(result_3)
 
-    # 5) 형용사 없애기(형태소 분석)
+    # 5) 형용사 없애기(형태소 분석) #아니면 완전히 제거
 
     for i, document in enumerate(result_3):
         okt = konlpy.tag.Okt()
